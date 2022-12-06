@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLiabrary.Tests\\DemoLiabrary.Tests.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLiabrary.Tests\\DemoLiabrary.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLiabrary.Tests\\DemoLiabrary.Tests.csproj",
+        "projectName": "DemoLiabrary.Tests",
+        "projectPath": "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLiabrary.Tests\\DemoLiabrary.Tests.csproj",
+        "packagesPath": "C:\\Users\\biruk.abel\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLiabrary.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\biruk.abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLibrary\\DemoLibrary.csproj": {
+                "projectPath": "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLibrary\\DemoLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLibrary\\DemoLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLibrary\\DemoLibrary.csproj",
+        "projectName": "DemoLibrary",
+        "projectPath": "E:\\Projects\\CV\\Andela\\Test Driven Development\\DemoPractice\\IntroToUnitTestingSourceCode\\DemoLibrary\\DemoLibrary.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
